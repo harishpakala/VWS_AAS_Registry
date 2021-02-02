@@ -94,11 +94,11 @@ VWS_AAS_Registry Interface is an AAS and offers rest API services as prescribed 
 The python project maintains a logger, all the important aspects regarding its functionality  are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the host system, related mapping information is provided in the docker-compose.yml file).
 
 ## Issues
-If you want to request new features or report bug [submit a new issue](https://github.com/harishpakala/VWS_AAS_Registry/issues/new)
+If you want to request new features or report bug [submit a new issue](https://github.com/VWS_AAS_Registry/issues/new)
 
 ## License
 
-VWS_AAS_Registry License under Apache 2.0, the complete license text including the copy rights is included under [License.txt]
+VWS_AAS_Registry License under Apache 2.0, the complete license text including the copy rights is included under [License.txt](https://github.com/VWS_AAS_Registry/blob/main/LICENSE.txt)
 
 * APScheduler,python-snap,jsonschema,web3 MIT License <br />
 * pybars3, opcua GNU Lesser General Public License v3 <br />
