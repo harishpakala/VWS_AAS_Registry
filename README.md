@@ -9,7 +9,7 @@ The AAS Registry interface provides rest api services for registration of new AA
 :two: All the Python dependencies are specified in the [requirements.txt]() <br />
 :three: The project uses mongodb as the backend database for storing the shell descriptors. <br />
 :four: The project mandates use of an MQTT server for exchange of information in 14.0 Json language. <br />
-:five: AAS descriptors are represented in JSON format as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html), a new Json schema definition is created in accordance  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; with  the AAS meta  model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). The registration and modification requests are validated using this json schema.<br />
+:five: AAS descriptors are represented in JSON format as specified in [AAS Detail Part 2](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part_2_V1.html), a new Json schema definition is created in accordance with  the AAS meta  model as specified in [AAS Detail Part 1](https://www.plattform-i40.de/PI40/Redaktion/DE/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). The registration and modification requests are validated using this json schema.<br />
 :six: The LIA OVGU development uses eclipse editor, accordingly eclipse related project files are provided in the repository.
 
 
@@ -94,7 +94,7 @@ VWS_AAS_Registry Interface is an AAS and offers rest API services as prescribed 
 The python project maintains a logger, all the important aspects regarding its functionality  are captured with logger. The entire log information is stored into .LOG files under the src &gt; main &gt; logs folder, in case of docker under logs (the log files will also be mapped to the host system, related mapping information is provided in the docker-compose.yml file).
 
 ## Issues
-If you want to request new features or report bug [submit a new issue](link is required)
+If you want to request new features or report bug [submit a new issue](https://github.com/harishpakala/VWS_AAS_Registry/issues/new)
 
 ## License
 
