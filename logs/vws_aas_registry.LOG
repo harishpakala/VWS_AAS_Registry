@@ -1,0 +1,7 @@
+01/31/2021 09:19:01 AM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+01/31/2021 09:19:01 AM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+01/31/2021 09:19:01 AM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+01/31/2021 09:19:01 AM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+01/31/2021 09:19:01 AM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+01/31/2021 09:19:32 AM - vws_aas_registry Service Instance - INFO - Error configuring the database Unexpected Internal Server Error
+01/31/2021 09:19:32 AM - vws_aas_registry Service Instance - INFO - The Service Logger is shutting down.
