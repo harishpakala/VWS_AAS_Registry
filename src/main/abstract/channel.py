@@ -1,7 +1,8 @@
 '''
-Created on 17.09.2019
-
-@author: pakala
+Copyright (c) 2021-2022 OVGU LIA
+Author: Harish Kumar Pakala
+This source code is licensed under the Apache License 2.0 (see LICENSE.txt).
+This source code may use other Open Source software components (see LICENSE.txt).
 '''
 from datetime import datetime
 import uuid
@@ -10,27 +11,18 @@ import uuid
 class Channel(object):
     """The channel representation."""
 
-    def __init__(self, saas):
-        self.saas = saas
-        self.io_adapter = None  # is redefined in case of raw channels
+    def __init__(self, pyAAS):
+        self.pyAAS = pyAAS
+        self.io_adapter = None  
         self.io_address = None
         self.current_value = None
-        # self.save(current_value)
-        # self.get_time_series(start_inclusive, end_inclusive)
+
 
     def configure(self, channel):
         self.id = channel["propertyName"]
         self.name = channel["propertyName"]
         self.type = "float"
-        
-#         if "TimeSeries" in xelement.attrib:
-#             self.is_timeseries = xelement.attrib["TimeSeries"]
-#         else:
-#             self.is_timeseries = False
-#         if "Description" in xelement.attrib:
-#             self.description = xelement.attrib["Description"]
-#         else:
-#             self.description = ""
+      
 
     def set_io_adapter(self, io_adapter):
         self.io_adapter = io_adapter
