@@ -1,7 +1,8 @@
 '''
-Created on 17.09.2019
-
-@author: pakala
+Copyright (c) 2021-2022 OVGU LIA
+Author: Harish Kumar Pakala
+This source code is licensed under the Apache License 2.0 (see LICENSE.txt).
+This source code may use other Open Source software components (see LICENSE.txt).
 '''
 from apscheduler.executors.pool import ThreadPoolExecutor
 from apscheduler.jobstores.memory import MemoryJobStore
@@ -26,14 +27,14 @@ class Scheduler(object):
     The scheduler of the Administration Shell
     """
 
-    def __init__(self, saas):
+    def __init__(self, pyAAS):
         """Reads the configuration and (re-)starts.
 
         This function reads the XML-based configuration file and
         initializes the scheduler.
 
         """
-        self.saas = saas
+        self.pyAAS = pyAAS
         self.f_modules = {}
 
         # set the defaults for the scheduler, which can not be changed
@@ -126,7 +127,7 @@ class Scheduler(object):
 
             else:
                 raise Exception(
-                    "This SAAS implementation can not handle the trigger type '{0}'".format(trigger_type))
+                    "This PYAAS implementation can not handle the trigger type '{0}'".format(trigger_type))
 
             job_xes = trigger_xe.xpath("./Job")
             for job_xe in job_xes:
