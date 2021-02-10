@@ -8,7 +8,7 @@ This source code may use other Open Source software components (see LICENSE.txt)
 import json
 import requests
 
-url = "http://192.168.178.23/api/v1/registry/OVGU_LIA_Requester"
+url = "http://localhost:9021/api/v1/registry/OVGU_LIA_Requester"
 headers = {'content-type' : 'application/json'}
 aasDescriptor = {}
 with open("OVGU_LIA_Requester.json") as aasDAdaptor:

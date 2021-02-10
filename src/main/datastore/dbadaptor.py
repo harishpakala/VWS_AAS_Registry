@@ -18,8 +18,8 @@ class DB_ADAPTOR(object):
         Constructor
         '''
         self.pyAAS = pyAAS
-        self.db_host = "localhost"#self.pyAAS.lia_env_variable['LIA_MONGO_HOST']
-        self.db_port = "27016"#self.pyAAS.lia_env_variable['LIA_MONGO_PORT']
+        self.db_host = self.pyAAS.lia_env_variable['LIA_MONGO_HOST']
+        self.db_port = self.pyAAS.lia_env_variable['LIA_MONGO_PORT']
         self.mongoclient = pymongo.MongoClient("mongodb://"+self.db_host+":"+self.db_port+"/")
         
         self.mongodb = self.mongoclient["AASXRegistry_"+self.pyAAS.AASID]
