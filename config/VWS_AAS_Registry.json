@@ -79,18 +79,11 @@
       "semanticId": {
         "keys": [
           {
-            "type": "",
-            "local": false,
-            "value": "",
+            "type": "Submodel",
+            "local": true,
+            "value": "TCD",
             "index": 0,
-            "idType": ""
-          },
-          {
-            "type": "",
-            "local": false,
-            "value": "",
-            "index": 1,
-            "idType": ""
+            "idType": "Custom"
           }
         ]
       },
