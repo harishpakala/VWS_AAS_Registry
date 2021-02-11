@@ -80,7 +80,7 @@ class ConfigParser(object):
 
     def getAASEndPoints(self):
         aasEndpointsList = []
-        moduleDict = {"MQTT":".mqtt_endpointhandler","RESTAPI":".restapi_endpointhandler"}
+        moduleDict = {"MQTT":".mqtt_endpointhandler","RESTAPI":".restapi_endpointhandler","ADMISHEELCONNECT":".adminshellconnect_endpointhandler2"}
         for moduleName in moduleDict.keys():
             aasEndpointsList.append({"Name":moduleName,"Module":moduleDict[moduleName]})
         return aasEndpointsList
