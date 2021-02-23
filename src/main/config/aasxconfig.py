@@ -42,19 +42,21 @@ class ConfigParser(object):
                     self.pyAAS.lia_env_variable[env_variable] = os.environ[env_variable]
             except Exception as E:
                 pass
-            
+    
+    def updateEndPointDict(self):
+        AASDescDataDB = self.pyAAS.dba.getDescriptorEndPoint()
+        if (AASDescDataDB["status"] == 200):
+            data = AASDescDataDB["message"]
+        for entry in data:
+            self.pyAAS.endPointsDict[entry["aasId"]] = entry["endpoint"]
+             
     def configureAASJsonData(self):
         AASDataDB = self.pyAAS.dba.getAAS({"aasId":self.pyAAS.AASID})
         if (AASDataDB["status"] == 200):
+            self.updateEndPointDict()
             self.jsonData = AASDataDB["message"][0]
-            aaD = AASDescriptor(self.pyAAS)
-            desc = aaD.createDescriptor()
-            descdata = {"updateData" :desc,"aasId":self.pyAAS.AASID}
-            descResponse = self.pyAAS.dba.putAASDescByID(descdata)
-            if (descResponse["status"] == 500):
-                return False
-            else:
-                return True
+            self.updateEndPointDict()
+            return True
         
         elif (AASDataDB["status"] == 404):
             data = {"updateData" :self.jsonData,"aasId":self.pyAAS.AASID}

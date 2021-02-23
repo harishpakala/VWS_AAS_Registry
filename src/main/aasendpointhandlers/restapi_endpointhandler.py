@@ -55,6 +55,9 @@ class AASEndPointHandler(AASEndPointHandler):
         drv_rst_api.add_resource(AASSubModels, "/aas/<aasId>/submodels", resource_class_args=tuple([self.pyAAS]))
         drv_rst_api.add_resource(AASSubmodelbyId, "/aas/<aasId>/submodels/<submodelId>", resource_class_args=tuple([self.pyAAS]))   
         
+        # COMMUNICATION END POINT
+        drv_rst_api.add_resource(RetrieveMessage, "/i40commu", resource_class_args=tuple([self.pyAAS]))
+        
         # Resgitry API
 
         drv_rst_api.add_resource(AASDesc, "/api/v1/registry", resource_class_args=tuple([self.pyAAS]))
@@ -88,7 +91,26 @@ class AASEndPointHandler(AASEndPointHandler):
                 data = json.loads(r.text)
                 self.msgHandler.putIbMessage(data)
             else:
-                pass # Need to write the logic for dispatch of messages for other flows.
+                try:
+                    targetHeader = {"content-type": "application/json"}
+                    targetID = send_Message["frame"]["receiver"]["identification"]["id"]
+                    targetAAS_URI = self.pyAAS.endPointsDict[targetID]
+                    targetResponse = requests.post(url= targetAAS_URI, data=json.dumps(send_Message), headers=targetHeader)
+                    if (targetResponse.status_code == 200):
+                        return True
+                    else:
+                        return False
+                except Exception as E:
+                    senderID = send_Message["frame"]["sender"]["identification"]["id"]
+                    for key in self.pyAAS.endPointsDict.keys():
+                        if (key != senderID and key != "VWS_AAS_Registry"):
+                            targetAAS_URI = self.pyAAS.endPointsDict[key]
+                            try:
+                                targetResponse = requests.post(url= targetAAS_URI, data=json.dumps(send_Message), headers=targetHeader)
+                                print(targetResponse.text)
+                            except Exception as E:
+                                pass
+                    return True
         except Exception as e:
             self.pyAAS.serviceLogger.info("Unable to publish the message to the target http server", str(e))
             self.sendExceptionMessageBack(str(e))

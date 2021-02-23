@@ -129,6 +129,7 @@ class vws_aas_registry(object):
         self.productionStepList = []
         self.conversationIdList = []
         self.submodelPropertyDict = self.aasConfigurer.getSubmodePropertyDict()
+        self.endPointsDict = {}
     
     def configureDataAdaptor(self):
         self.dba = DB_ADAPTOR(self)
