@@ -7,7 +7,7 @@ services:
       image: ${LIA_dockerimage}
       container_name: ${LIA_MONGO_CONTAINER}
       ports:
-        -  "27015:27017"
+        -  ${LIA_MONGO_PORT}:${LIA_MONGO_PORT}
       env_file:
         - .env
 

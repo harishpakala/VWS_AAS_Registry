@@ -25,15 +25,10 @@ class RetrieveMessage(Resource):
     def __init__(self, pyAAS):
         self.pyAAS = pyAAS
         
-    def post(self,aasId):
-        jsonMessage = request.json
-        try:
-            if (jsonMessage["frame"]["sender"]["identification"]["id"] == self.pyAAS.AASID):
-                pass
-            else:
-                self.pyAAS.msgHandler.putIbMessage(jsonMessage)
-        except:
-            pass
+    def post(self):
+        tMessage = request.json
+        self.pyAAS.serviceLogger.info("A new transportation message is received.")
+        self.pyAAS.msgHandler.putTransportMessage(tMessage)
 
 class AAS(Resource):
     def __init__(self,pyAAS):

@@ -6,7 +6,11 @@ This source code may use other Open Source software components (see LICENSE.txt)
 '''
 
 import pymongo
-
+import json
+try:
+    from utils.utils import HTTPEndpointObject
+except ImportError:
+    from main.utils.utils import HTTPEndpointObject
 
 class DB_ADAPTOR(object):
     '''
@@ -26,6 +30,7 @@ class DB_ADAPTOR(object):
         self.mongocol_aas = self.mongodb["aas_"+self.pyAAS.AASID]
         self.mongocol_Messages = self.mongodb["messages_"+self.pyAAS.AASID]
         self.mongocol_aasDesc = self.mongodb["aasDesc"+self.pyAAS.AASID]
+        self.mongocol_aasDescEndPoint = self.mongodb["aasDescEndPoint"+self.pyAAS.AASID]
         
 ## AAS related Entries
     def getAAS(self,data):
@@ -442,15 +447,19 @@ class DB_ADAPTOR(object):
         aasId = data["aasId"]
         try:
             response = self.deleteAASDescById(data)
+            heo = HTTPEndpointObject(self.pyAAS)
             if (response["status"] == 200):
                 self.mongocol_aasDesc.insert_one({ "aasId" : aasId,"data":descData})
+                heo.insert(descData)
                 returnMessageDict = {"message" : ["The Asset Administration Shell's registration was successfully renewed"],"status":200}
             elif(response["status"] == 404):
                 self.mongocol_aasDesc.insert_one({  "aasId" : aasId,"data":descData})
+                heo.insert(descData)
                 returnMessageDict = {"message" : ["The Asset Administration Shell's registration was successfull"],"status":200}
             else:
                 returnMessageDict = response
         except Exception as E:
+            print(str(E))
             returnMessageDict = {"message": ["Unexpected Internal Server Error"],"status":500}
         return returnMessageDict
  
@@ -543,6 +552,31 @@ class DB_ADAPTOR(object):
             returnMessageDict = {"message" : ["Unexpected Internal Server Error"], "status":500}
         return returnMessageDict    
     
+    def insertDescriptorEndPoint(self,data):
+        self.mongocol_aasDescEndPoint.insert_one(data)
+    
+    def deleteDescriptorEndPoint(self,aasId):
+        deleteResult = self.mongocol_aasDescEndPoint.remove({ 
+                                    "aasId" : aasId
+                                                })
+        
+    def getDescriptorEndPoint(self):
+        returnMessageDict = {}
+        resultList = []
+        try:
+            AAS = self.mongocol_aasDescEndPoint.find({},
+                                            { 
+                                                "_id" : 0.0
+                                            })
+            
+            for aasD in AAS:
+                resultList.append(aasD)
+            returnMessageDict = {"message": resultList,"status":200}
+
+        except Exception as E:
+            returnMessageDict = {"message" : ["Unexpected Internal Server Error"], "status":500}
+        return returnMessageDict        
+        
     def getAllDesc(self,data):
         returnMessageDict = {}
         resultList = []

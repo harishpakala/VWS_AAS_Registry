@@ -38,7 +38,7 @@ class AASDescriptor(object):
     def createAASDescriptorElement(self,desc,aasDescriptor,aasxData):
         try:
             aasDescriptor[desc] = aasxData["assetAdministrationShells"][0][desc]
-        except Exception as E:
+        except Exception as e:
             pass
         return aasDescriptor
 
@@ -60,8 +60,8 @@ class AASDescriptor(object):
         port = self.pyAAS.lia_env_variable["LIA_AAS_RESTAPI_PORT_EXTERN"]
         descString = "http://"+ip+":"+port+"/aas/"+self.pyAAS.AASID 
         endpointsList = []
-        endpointsList.append({"address": descString,"type": "restapi","parameters": {}})
-        endpointsList.append({"address": descString+"/i40commu","type": "restapi_comm","parameters": {}})  
+        endpointsList.append({"address": descString,"type": "restapi"})
+        endpointsList.append({"address": "http://"+ip+":"+port+"/i40commu","type": "communication"})  
   
         aasDescriptor["endpoints"]  =  endpointsList
         submodelDescList = []
@@ -74,14 +74,14 @@ class AASDescriptor(object):
             submodeldescString = descString +"/submodels/"+sumodelDescriptor["idShort"]
             sumodelDescriptor["endpoints"]  = [{
                                         "address": submodeldescString,
-                                        "type": "string",
-                                        "parameters": {}
+                                        "type": "restapi"
                                       }] 
             submodelDescList.append(sumodelDescriptor)
         
         aasDescriptor["submodelDescriptors"] = submodelDescList
         aasDescriptor["assets"] = aasxData["assets"]
         return aasDescriptor
+
 
 class DescriptorValidator(object):
     def __init__(self,pyAAS):
@@ -158,3 +158,18 @@ class ExecuteDBRetriever(object):
                     del self.pyAAS.dataManager.outBoundProcessingDict[self.instanceId]
                     vePool = False
         return response
+
+class HTTPEndpointObject(object):
+    def __init__(self,pyAAS):
+        self.pyAAS = pyAAS
+    
+    def insert(self,aasD):
+        try:
+            aasId = aasD["idShort"]
+            for endpoint in aasD["endpoints"]:
+                if endpoint["type"] == "communication":
+                    self.pyAAS.endPointsDict[aasId] = endpoint["address"]
+                    self.pyAAS.dba.deleteDescriptorEndPoint(aasId)
+                    self.pyAAS.dba.insertDescriptorEndPoint({"aasId":aasId, "endpoint":endpoint["address"]})
+        except Exception as E:
+            print(str(E))

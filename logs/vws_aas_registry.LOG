@@ -1,0 +1,292 @@
+02/11/2021 07:48:44 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 07:48:44 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 07:48:44 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 07:48:44 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 07:48:44 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 07:48:45 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 07:48:46 PM - vws_aas_registry Service Instance - INFO - Unable to connect to the mqtt server [Errno 99] Cannot assign requested address
+02/11/2021 07:51:57 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 07:51:57 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 07:51:57 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 07:51:57 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 07:51:57 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 07:51:58 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 07:58:06 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 07:58:06 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 07:58:06 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 07:58:06 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 07:58:06 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 07:58:07 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 08:46:23 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 08:46:23 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 08:46:23 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 08:46:23 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 08:46:23 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 08:46:23 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 08:46:23 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 08:46:24 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 08:50:14 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 08:50:14 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 08:50:14 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 08:50:14 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 08:50:14 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 08:50:15 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:50:16 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 08:50:16 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 08:54:31 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 08:54:31 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 08:54:31 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 08:54:31 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 08:54:31 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 08:54:32 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 08:59:12 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 08:59:13 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 08:59:13 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 09:01:41 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 09:01:42 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 09:08:08 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 09:32:18 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 09:32:18 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 09:32:18 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 09:32:18 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 09:32:18 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 09:32:18 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 09:32:18 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 09:32:19 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 09:35:18 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/11/2021 09:37:54 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/11/2021 09:37:54 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/11/2021 09:37:54 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/11/2021 09:37:54 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/11/2021 09:37:54 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/11/2021 09:37:55 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
+02/23/2021 02:04:40 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/23/2021 02:04:40 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/23/2021 02:04:40 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/23/2021 02:04:40 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/23/2021 02:04:40 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/23/2021 02:05:10 PM - vws_aas_registry Service Instance - INFO - Error configuring the database Unexpected Internal Server Error
+02/23/2021 02:05:10 PM - vws_aas_registry Service Instance - INFO - The Service Logger is shutting down.
+02/23/2021 02:10:02 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/23/2021 02:10:02 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/23/2021 02:10:02 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/23/2021 02:10:02 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/23/2021 02:10:02 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/23/2021 02:12:41 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/23/2021 02:12:41 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/23/2021 02:12:41 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/23/2021 02:12:41 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/23/2021 02:12:41 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/23/2021 02:12:42 PM - vws_aas_registry Service Instance - INFO - Unable to connect to the mqtt server [Errno 99] Cannot assign requested address
+02/23/2021 02:15:05 PM - vws_aas_registry Service Instance - INFO - The service Logger is Configured.
+02/23/2021 02:15:05 PM - vws_aas_registry Service Instance - INFO - Configuring the Service Entities.
+02/23/2021 02:15:05 PM - vws_aas_registry Service Instance - INFO - The AAS ID is configured.
+02/23/2021 02:15:05 PM - vws_aas_registry Service Instance - INFO - External Variables are configured.
+02/23/2021 02:15:05 PM - vws_aas_registry Service Instance - INFO - Configuration Parameters are Set.
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The External DB is configured
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - MQTT channels are configured
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - REST API namespaces are configured
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - ADMINSHELL Connect Adaptor is configured
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The AAS I40 End Points are configured
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The Asset Access points are configured
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The skills are configured
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - Starting the Service Entities
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The Database manager is being started
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - MQTT channels are started
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - MQTT channels are succesfully connected.
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The AAS end Points are Started
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The message handler started
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The Job Scheduler is Started
+02/23/2021 02:15:06 PM - vws_aas_registry Service Instance - INFO - The Skills are Started
